@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # Games pages, user authentication required
-  resources :games, only: [:index, :show, :new, :console_list]
+  resources :games, only: [:index, :show, :new]
   devise_for :users
 
   root to: 'homepage#index'

@@ -13,4 +13,5 @@ class GamesController < ApplicationController
 
   def console_list
   end
+  
 end
