@@ -3,8 +3,6 @@ Welcome to your homepage, Dawg</h2></div>
 
 <% if user_signed_in? %>
 
-  <img src="https://dynamicmedia.zuza.com/zz/m/original_/3/3/33f6696c-f10e-4937-b5d8-5fa5fc29a8a8/0595d6e54883bbb0ede13b4b0132_Gallery.jpeg" alt="">
-  <img src="https://www.birdsoutsidemywindow.org/wp-content/uploads/2011/02/mammals_opossum-2646_rsz_crish.jpg" alt="">
-  <img src="http://www.bravotv.com/sites/nbcubravotv/files/styles/blog-post--mobile/public/field_blog_image/2017/12/unleashed-gary-the-trash-cat.jpg?itok=MPvnJHQR&timestamp=1513899082" alt="">
+  <h2>Hello, <%= current_user.email %></h2>
 
 <% end %>
