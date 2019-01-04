@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'games/index'
+
+  get 'games/show'
+
+  get 'games/new'
+
+  get 'games/console_list'
+
   devise_for :users
   get 'homepage/index'
 
