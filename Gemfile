@@ -12,6 +12,8 @@ end
 gem 'rails', '~> 5.1.6'
 # Use mysql2 as the database for Active Record
 gem 'mysql2'
+# Devise user authentication
+gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
