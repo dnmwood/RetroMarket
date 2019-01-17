@@ -12,6 +12,11 @@ end
 gem 'rails', '~> 5.1.6'
 # Use mysql2 as the database for Active Record
 gem 'mysql2'
+# igdb HTTP Requests
+gem 'http'
+gem 'igdb', '~> 0.7.0'
+# Testing
+gem 'rspec', '~> 3.0'
 # Devise user authentication
 gem 'devise'
 # Use Puma as the app server
