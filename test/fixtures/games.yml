@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  person_id: 1
+  title: MyString
+  console: MyString
+  condition: MyString
+  release_date: MyString
+  details: MyString
+
+two:
+  person_id: 1
+  title: MyString
+  console: MyString
+  condition: MyString
+  release_date: MyString
+  details: MyString
